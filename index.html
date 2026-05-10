@@ -93,23 +93,67 @@
 
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body>
-        <header class="header">
+    <body style="height: 10000px">
+        <header class="header sticky">
             <div class="container">
                 <div class="header--top">
                     <a href="/">
                         <div class="logo">
                             <span class="logo__circle"></span>
                             <span class="logo__text">
-                                <span class="logo__branch logo__branch--big">shine</span>
-                                <span class="logo__branch logo__branch--small">smile</span>
+                                <span class="logo__branch logo__branch--big"
+                                    >shine</span
+                                >
+                                <span class="logo__branch logo__branch--small"
+                                    >smile</span
+                                >
                             </span>
                         </div>
                     </a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
+                            </li>
+
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Services</a>
+                            </li>
+
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Doctors</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="cta-group">
+                        <button
+                            class="cta-group__btn cta-group__btn--login btn"
+                        >
+                            Log in
+                        </button>
+
+                        <button
+                            class="cta-group__btn cta-group__btn--signup btn"
+                        >
+                            Sign up
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
+
     </body>
 </html>
