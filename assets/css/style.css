@@ -287,7 +287,8 @@ a {
 
 /* Services */
 .services {
-    margin-top: 170px;
+    margin-top: 85px;
+    padding: 85px 0;
 }
 
 .services__heading,
@@ -381,7 +382,7 @@ a {
 
 /* Work */
 .work {
-    margin-top: 170px;
+    margin-top: 85px;
     padding: 100px 0;
     background: #f6fbff;
 }
@@ -440,4 +441,56 @@ a {
 .work__more {
     color: #2e80ce;
     font-weight: 400;
+}
+
+/* Feature */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__media {
+    width: 49%;
+}
+
+.feature__images {
+    position: relative;
+    padding-bottom: 121px;
+    padding-right: 58px;
+}
+
+.feature__img {
+    object-fit: cover;
+    height: 370px;
+    border-radius: 6px;
+}
+
+.feature__img--horizontal {
+    width: 512px;
+}
+
+.feature__img--vertical {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 322px;
+}
+
+.feature__content {
+    margin-left: 130px;
+}
+
+.feature__desc {
+    margin-bottom: 38px;
+}
+
+.feature__cta {
+    color: #fff;
+    font-size: 1.8rem;
 }
